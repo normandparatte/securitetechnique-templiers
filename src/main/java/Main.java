@@ -11,6 +11,6 @@ import vue.FenetreTempliers;
 
 public class Main {
   public static void main(String[] args) {
-    FenetreTempliers fenetreTempliers = new FenetreTempliers("Test");
+    FenetreTempliers fenetreTempliers = new FenetreTempliers("Ceci est un test");
   }
 }
