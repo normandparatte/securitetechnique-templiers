@@ -8,9 +8,8 @@ import vue.FenetreTempliers;
  * Date    :     Avril 2018
  */
 
-
 public class Main {
   public static void main(String[] args) {
-    FenetreTempliers fenetreTempliers = new FenetreTempliers("Ceci est un test");
+    FenetreTempliers fenetreTempliers = new FenetreTempliers("normand");
   }
 }
