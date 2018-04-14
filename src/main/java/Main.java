@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import vue.FenetreTempliers;
 
 /**
@@ -10,6 +11,13 @@ import vue.FenetreTempliers;
 
 public class Main {
   public static void main(String[] args) {
-    FenetreTempliers fenetreTempliers = new FenetreTempliers("Ceci est un test");
+    // Demande la phrase à l'utilisateur
+    Scanner sc = new Scanner(System.in);
+    System.out.println("\nVeuillez entrer la phrase à chiffrer :");
+
+    // Création de la fenêtre selon la phrase saisie
+    FenetreTempliers fenetreTempliers = new FenetreTempliers(sc.nextLine());
+    // Affiche la fenêtre en question
+    fenetreTempliers.setVisible(true);
   }
 }
